@@ -1,7 +1,7 @@
 # Surrender Tracker
 A small CLI app which uses the Riot Games League of Legends API to track how many games an account has won or lost from surrendering. 
 ## Features
-- A breakdown of the surrender outcomes from the last 100 games played by the summoner
+- A breakdown of the surrender outcomes from the last 100 games played by the summoner.
 - A direct link to view the stats of any surrendered game
 ## Limitations
 - The Riot API has heavy rate limiting so you may find the requests take a while to complete. We're restricted to 100 requests every 2 mins. This app defaults to using all 100 requests to give as large of a sample size as possible.
